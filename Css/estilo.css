@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  text-align: center;
+
+}
+
+.container {
+  padding: 20px;
+  border: solid 4px black;
+  border-radius: 13px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  max-width: 600px;
+  width: 80%;
+
+
+}
+
+#titulo {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#cita {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#autor {
+  font-size: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btnCambiarCita {
+  font-size: 25px;
+  padding: 20px 10px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(201, 225, 247);
+  color: rgb(197, 177, 153);
+}
+
+#btnCambiarCita:hover {
+  background-color: rgb(197, 177, 153);
+  color: rgb(201, 225, 247);
+}
